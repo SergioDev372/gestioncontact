@@ -119,6 +119,10 @@ class _LoginScreenState extends State<LoginScreen> {
                       child: _isLoading
                           ? const CircularProgressIndicator(color: Colors.white)
                           : const Text('Se connecter', style: TextStyle(fontSize: 16)),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Color(0xff7f00ff),
+                        foregroundColor: Colors.white
+                      ),
                     ),
                   ),
                   const SizedBox(height: 16),

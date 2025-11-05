@@ -151,6 +151,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       child: _isLoading
                           ? const CircularProgressIndicator(color: Colors.white)
                           : const Text('S\'inscrire', style: TextStyle(fontSize: 16)),
+                      style: ElevatedButton.styleFrom(
+                          backgroundColor: Color(0xff7f00ff),
+                          foregroundColor: Colors.white
+                      ),
                     ),
                   ),
                 ],
